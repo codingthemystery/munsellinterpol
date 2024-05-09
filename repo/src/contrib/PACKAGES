@@ -1,0 +1,33 @@
+Package: munsellinterpol
+Version: 3.0-0
+Depends: R (>= 3.2.0)
+Imports: rootSolve, spacesRGB, spacesXYZ
+Suggests: microbenchmark, mgcv, knitr, rmarkdown, flextable
+License: GPL (>= 3)
+MD5sum: fb8ba322af6479fe9e8442040ba07691
+NeedsCompilation: no
+
+Package: rootSolve
+Version: 1.8.2.4
+Depends: R (>= 2.01)
+Imports: stats, graphics, grDevices
+License: GPL (>= 2)
+MD5sum: dd4dc135c2414fd769710842d76855e2
+NeedsCompilation: yes
+
+Package: spacesRGB
+Version: 1.5-0
+Depends: R (>= 2.13.0)
+Suggests: spacesXYZ, rgl, microbenchmark, knitr, rmarkdown
+License: GPL (>= 3)
+MD5sum: ab239eaef96688baf3208cadc3307660
+NeedsCompilation: no
+
+Package: spacesXYZ
+Version: 1.3-0
+Depends: R (>= 3.2.0)
+Suggests: knitr, rmarkdown, microbenchmark
+Enhances: colorSpec
+License: GPL (>= 3)
+MD5sum: e56fd25b2f2d5b49b2ae57c8efaddceb
+NeedsCompilation: no
